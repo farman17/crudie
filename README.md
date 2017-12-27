@@ -1,6 +1,7 @@
 # CRUD-PHP-MySQL-Apache
 
 === REPOSITORY INI DIBUAT UNTUK MEMENUHI TUGAS PRAKTIK TEKNOLOGI CLOUD COMPUTING ===
+
 pada repository ini berisikan source membuat aplikasi sederhana menggunakan bahasa pemrograman PHP 7.1, database MySQL, dan apache web server.
 Pembuatan aplikasi ini adalah sebagai berikut :
 1. buat file docker-compose.yml dan Dockerfile, kemudian buat folder "dump" dan folder "www". folder "dump" berisikan database yang akan digunakan untuk aplikasi yang akan anda buat. Dan folder "www" berisikan file index.php, cofig.php, dll untuk menjalankan crud PHP.
