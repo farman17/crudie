@@ -9,3 +9,6 @@ Pembuatan aplikasi ini adalah sebagai berikut :
 3. didalam file Dockerfile berisikan pemanggilan image php 7.1 yang akan saya gunakan.
 4. untuk menjalankan docker compose gunakan perintah "docker-compose up -d"
 5. Gambar dokumentasi running aplikasi ini ada di dalam folder "dokumentasi"
+
+
+NB : jika anda mengalami kegagalan dalam menjalankan aplikasi ini, jalankan "docker restart <id container>" untuk melakukan restart docker
