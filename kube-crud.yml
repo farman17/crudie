@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: php-crud
-        image: farman17/dekkeng-landing
+        image: farman17/crud
         ports:
           - containerPort: 80
         env:
