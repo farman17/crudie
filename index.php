@@ -1,5 +1,5 @@
 <?php
 
-Website is Under Maintenance.....
+Website Under Maintenance.....
 
 ?>
