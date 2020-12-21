@@ -1,7 +1,6 @@
-FROM nginx:latest
 
-WORKDIR /usr/share/nginx/html
+FROM nginx:alpine
 
-COPY index.html index.html
+COPY . /usr/share/nginx/html/
 
 
