@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: php-crud
-        image: farman17/dekkeng-crud:tag
+        image: farman17/crud
         ports:
           - containerPort: 80
         env:
@@ -55,7 +55,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: sosialmedia.dailybugis.my.id
+  - host: crud.dailybugis.my.id
     http:
       paths:
       #- path: /

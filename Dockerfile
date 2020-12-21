@@ -1,2 +1,6 @@
-FROM php:7.1.2-apache 
-RUN docker-php-ext-install mysqli
+
+FROM nginx:alpine
+
+COPY . /usr/share/nginx/html/
+
+
