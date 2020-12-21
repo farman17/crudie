@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: php-pesbuk
-        image: farman17/crudie:tag
+        image: farman17/crud-image:tag
         ports:
           - containerPort: 80
         env:
