@@ -10,8 +10,6 @@ RUN apk update \
     php7-gettext php7-xmlreader php7-xmlrpc \
     php7-bz2 php7-iconv php7-pdo_dblib php7-curl php7-ctype \
     supervisor
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY configure.sh /configure.sh
-COPY supervisord.conf /etc/supervisord.conf
+
 VOLUME ["/var/lib/nginx/html/"]
 EXPOSE 80/tcp
