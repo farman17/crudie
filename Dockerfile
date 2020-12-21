@@ -1,6 +1,3 @@
 FROM nginx:alpine
 
-
-WORKDIR /var/www/html/
-
-COPY . /var/www/html/ 
+COPY . /usr/share/nginx/html/
