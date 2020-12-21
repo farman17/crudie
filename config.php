@@ -1,14 +1,9 @@
 <?php
+//koneksi ke database mysql, silahkan di rubah dengan koneksi agan sendiri
+$koneksi = mysqli_connect("dbsosmedia.cjorhe5jzkni.us-east-2.rds.amazonaws.com","admin","farman17","dbcrud");
 
-$db_host = "localhost";
-$db_user = "devopscilsy";
-$db_pass = "1234567890";
-$db_name = "dbsosmed";
-
-try {    
-    //create PDO connection 
-    $db = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
-} catch(PDOException $e) {
-    //show error
-    die("Terjadi masalah: " . $e->getMessage());
+//cek jika koneksi ke mysql gagal, maka akan tampil pesan berikut
+if (mysqli_connect_errno()){
+	echo "Gagal melakukan koneksi ke MySQL: " . mysqli_connect_error();
 }
+?>
