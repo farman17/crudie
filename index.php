@@ -5,14 +5,14 @@ include('config.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CRUD PHP MySQLi | TUTORIALWEB.NET</title>
+	<title>STMIK NUSABANGSA</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">CRDU PHP MySQLi</a>
+			<a class="navbar-brand" href="#">Sistem Informasi MABA STMIK NUSABANGSA</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
