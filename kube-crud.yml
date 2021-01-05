@@ -27,8 +27,8 @@ spec:
         app: crudaps
     spec:
       containers:
-      - name: php-pesbuk
-        image: farman17/crud-image:tag
+      - name: php-crudy
+        image: farman17/crudzy:6.0
         ports:
           - containerPort: 80
         
