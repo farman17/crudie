@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: php-crudy
-        image: farman17/crudzy
+        image: farman17/aplikasi-kampus
         ports:
           - containerPort: 80
         
